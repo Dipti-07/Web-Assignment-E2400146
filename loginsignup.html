@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - D&C Beauty Salon</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js" defer></script>
+</head>
+<body class="contact">
+    <!-- Header and Navigation -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="images/logo.png" alt="D&C Beauty Salon Logo">
+            </div>
+            <h1>D&C Beauty Salon</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="appointment.html">Appointment</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="loginsignup.html">Login/Signup</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- Make an Account Section -->
+    <section id="account">
+    <section id="make-account">
+        <h2>Make an Account</h2>
+        <p>Create an account to stay easily connected with us, receive updates on exciting deals and offers, enjoy exclusive discounts, effortlessly send messages, and access your booking history at any time.</p>
+        
+        <!-- Auth Container -->
+        <div class="auth-container">
+            <div class="auth-box">
+                <div class="auth-toggle">
+                    <button id="login-btn" class="active">Login</button>
+                    <button id="signup-btn">Sign Up</button>
+                </div>
+
+                <!-- Login Form -->
+                <form id="login-form" class="auth-form">
+                    <h2>Login</h2>
+                    <input type="email" id="login-email" name="login-email" placeholder="Email" required>
+                    <input type="password" id="login-password" name="login-password" placeholder="Password" required>
+                    <button type="submit" class="auth-submit-btn">Login</button>
+                </form>
+
+                <!-- Signup Form -->
+                <form id="signup-form" class="auth-form hidden">
+                    <h2>Sign Up</h2>
+                    <input type="text" id="signup-name" name="signup-name" placeholder="Full Name" required>
+                    <input type="email" id="signup-email" name="signup-email" placeholder="Email" required>
+                    <input type="password" id="signup-password" name="signup-password" placeholder="Password" required>
+                    <input type="tel" id="signup-phone" name="signup-phone" placeholder="Phone Number" required>
+                    <input type="text" id="signup-address" name="signup-address" placeholder="Address" required>
+                    <button type="submit" class="auth-submit-btn">Sign Up</button>
+                </form>
+
+                <div id="auth-message" class="auth-message hidden"></div>
+            </div>
+        </div>
+    </section>
+</section>
+     
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-left">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="location.html">Location</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-right">
+                <h3>Get Connected</h3>
+                <p>Phone: 9888990000 | 01-4777770</p>
+                <p>Email: <a href="mailto:info@D&Cbeautysalon.com">info@D&Cbeautysalon.com</a> | <a href="mailto:press@D&Cbeautysalon.com">press@D&Cbeautysalon.com</a></p>
+                <div class="social-media">
+                    <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+                    <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+                </div>
+            </div>
+        </div>
+        <p class="footer-bottom">© 2024 D&C Beauty Salon. All Rights Reserved.</p>
+    </footer>
+    <button id="go-to-top">↑</button>
+</body>
+</html>
